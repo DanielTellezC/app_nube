@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const { mongodb } = require('./keys');
-console.log(mongodb.URL, "Esta es la ur de la conexion de mongo");
+console.log("Esta es la ur de la conexion de mongo:    ", mongodb.URL);
 
 mongoose.connect(mongodb.URL,{})
     .then(db => console.log('base de datos conectada'))

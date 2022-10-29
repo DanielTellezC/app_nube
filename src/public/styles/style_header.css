@@ -20,6 +20,7 @@
 .content_navbar ul li a{
     text-decoration: none;
     color: #ffffff;
+    
 }
 /* estilo de el posicionamiento del logo */
 .navbar_logo{
@@ -36,6 +37,10 @@
 }
 
 /* Rutas alternas del navbar */
+.navbar_link{
+    display: flex;
+}
+
 .navbar_link:hover{
     background-color: rgba(0,0,0,50%);
 }
