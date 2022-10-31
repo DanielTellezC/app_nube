@@ -23,6 +23,23 @@
         <div class="cuerpo_cartas">
             <%= task.description %>
         </div>
+        <div class="footer_cartas">
+            Estado de la tarjeta:
+            <% if(task.done == true) { %>
+            <span class="material-symbols-outlined">
+                close
+            </span>
+            <% }else{ %>
+                <a href="">
+            <span class="material-symbols-outlined">
+                done
+            </span>
+                </a>
+            <% } %>
+            <span class="material-symbols-outlined">
+                delete
+                </span>
+        </div>
     </div>
     <% }); %>
 </div>

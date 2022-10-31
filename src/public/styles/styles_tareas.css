@@ -1,5 +1,6 @@
 .titulo_tareas{
     margin: 25px;
+    text-transform: capitalize;
 }
 .tarjeta_tareas{
     margin: 25px;
@@ -46,7 +47,7 @@
     grid-column: span 1;
 }
 .header_cartas{
-    background: rgb(0, 6, 88);
+    background: rgba(9,9,121,1);
     padding: 10px;
     height: 15%;
     color: #ffffff;
@@ -58,11 +59,19 @@
 .cuerpo_cartas{
     background-color: #ffffff;
     padding: 10px;
-    height: 70%;
-    border-radius: 0 0 10px 10px;
+    height: 60%;
     color: #515151;
     overflow: auto;
 }
+.footer_cartas{
+    height: 10%;
+    border-radius: 0 0 10px 10px;
+    background-color:rgba(2,0,36,1);
+    padding-left: 15px;
+    color: #ffffff;
+    list-style: none;
+}
+
 
 .cuerpo_cartas::-webkit-scrollbar, .header_cartas::-webkit-scrollbar {
     -webkit-appearance: none;
